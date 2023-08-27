@@ -17,6 +17,8 @@ I ran into the same error as described here - https://learn.microsoft.com/en-us/
 ### Error:
     "The virtual machine requires a subscription without any spending limit or temporary payment method set. Use a different subscription or update your subscription"
 
+![Error](https://learn-attachment.microsoft.com/api/attachments/06b51a16-0d6e-4eff-a4d3-0725f48e389f?platform=QnA)
+
 ## Workaround:
 
 Steps to create a VM from template:
