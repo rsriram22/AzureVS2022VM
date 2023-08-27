@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "<eg., eastus>"
+        },
+        "networkInterfaceName": {
+            "value": "<give a name>"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/<subscription id of your VS subscription in Azure>/resourceGroups/<resource group name>/providers/Microsoft.Network/networkSecurityGroups/<nsg name>"
+        },
+        "subnetName": {
+            "value": "<subnet name>"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/<subscription id of your VS subscription in Azure>/resourceGroups/<resource group name>/providers/Microsoft.Network/virtualNetworks/<vnet name>"
+        },
+        "virtualMachineName": {
+            "value": "<name of your vm>"
+        },
+        "virtualMachineComputerName": {
+            "value": "<name of your vm>"
+        },
+        "virtualMachineRG": {
+            "value": "<resource group name>"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "<vm size. eg., Standard_B4as_v2>"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "adminUsername": {
+            "value": "<admin username>"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        }
+    }
+}
