@@ -15,5 +15,5 @@ Steps to create a VM from template:
 6. Save
 7. Click 'Deploy'
 8. Enter the info you know (resource group,location etc)
-9. Other details, look at the parameters.json file and you get the idea of what-to-fill-in
+9. Other details, look at the parameters.json file and you get the idea of what-to-fill-in. The placeholders are in <> tags.
 10. Thats it!
