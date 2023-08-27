@@ -1,7 +1,9 @@
 # AzureVS2022VM
 Create VS 2022 VM in Azure using a template
 
-*** This approach is a workaround as the current portal is hosed and will not allow users with VS subscriptions (Pro or Enterprise) to create a VM image (that has inbuilt VS 2022).
+***
+***
+*** This approach is a workaround as the Azure portal is hosed and will not allow users with VS subscriptions (Pro or Enterprise) to create a VM image (that has inbuilt VS 2022).
 ***
 ***
 
