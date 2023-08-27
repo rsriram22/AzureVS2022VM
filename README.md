@@ -1,20 +1,23 @@
 # Azure Visual Studio 2022 VM
-Create VS 2022 VM in Azure using a template
+
+## How to create VS 2022 VM in Azure using a template (for Visual Studio users with a subscription)
 
 ***
 ***
-*** This approach is a workaround as the Azure portal is hosed and will not allow users with VS subscriptions (Pro or Enterprise) to create a VM image (that has inbuilt VS 2022).
+  This approach is a workaround as the Azure portal is hosed and will not allow users with VS subscriptions (Pro or Enterprise) to create a VM image (that has 
+  inbuilt VS 2022).
 ***
 ***
 
-Background:
+## Background:
 
 I ran into the same error as described here - https://learn.microsoft.com/en-us/answers/questions/1305434/how-to-solve-this-subscription-spending-limit-issu
 (Apparently, it's not resolved since June 14)
 
-The error is "The virtual machine requires a subscription without any spending limit or temporary payment method set. Use a different subscription or update your subscription"
+### Error:
+    "The virtual machine requires a subscription without any spending limit or temporary payment method set. Use a different subscription or update your subscription"
 
-Workaround:
+## Workaround:
 
 Steps to create a VM from template:
 
