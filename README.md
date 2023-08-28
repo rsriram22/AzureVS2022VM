@@ -1,8 +1,5 @@
 # Azure Visual Studio 2022 VM
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftackiertangent%2FAzureVS2022VM%2Fmain%2Ftemplate.json)
-
-
 ## How to create VS 2022 VM in Azure using a template (for Visual Studio users with a subscription)
 
 ***
@@ -24,7 +21,16 @@ I ran into the same error as described here - https://learn.microsoft.com/en-us/
 
 ## Workaround:
 
-Steps to create a VM from template:
+Two ways to achieve this:
+
+### Method 1
+
+  1. Click here (semi automatic) -> [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftackiertangent%2FAzureVS2022VM%2Fmain%2Ftemplate.json)
+  2. For customized values, refer to parameters.json file in this repo
+
+### Method 2 
+
+Steps to create a VM from template (manual):
 
 1. Open portal (portal.azure.com)
 2. Create a new 'Template Spec' ('Templates' are being retired soon)
